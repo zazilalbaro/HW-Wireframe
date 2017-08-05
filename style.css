@@ -1,0 +1,105 @@
+html {
+	background-color: #777;
+	display: table;
+	margin: auto;
+}
+
+.fontprefgrey {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: grey;
+	font-size: 18px;
+	text-align: center;
+}
+
+.fontprefwhite {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+
+.boldgreyfont {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: grey;
+	font-size: 1.17em;
+	text-align: center;
+	font-weight: bold;
+}
+
+body {
+	width: 960px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #777;
+}
+
+.setthinsections {
+	padding: 30px;
+	background-color: #ebebeb;
+	margin: 7px;
+}
+
+section {
+	float: left;
+	height: 250px;
+	width: 495px;
+	margin: 10px 10px 10px 7px;
+	background-color: #ebebeb;
+	padding-top: 30px;
+}
+
+article {
+	padding-top: 10px;
+	background-color: #777;
+	display: inline-block;
+	height: 175px;
+	width: 475px;
+	position: relative;
+	top: 30px
+}
+
+aside {
+	float: right;
+	height: 250px;
+	width: 431px;
+	margin: 10px 7px 10px 10px;
+	background-color: #ebebeb;
+	padding-top: 30px;
+}
+
+.articleblocks {
+	display: inline-block;
+	background-color: #ebebeb;
+	width: 425px;
+	height: 37px;
+	margin-top: 7px;
+}
+
+.floatheader {
+	margin: 0px 5px 0px 0px;
+	float: left;
+	line-height: 1.00em;
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+}
+
+div {
+	vertical-align: center;
+	display: inline-block;
+	width: 110px;
+	height: 25px;
+	top: 10px;
+	padding-top: 7px;
+}
+
+.paragraph {
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: grey;
+	left: 45%;
+}
+
+.footerdiv {
+	width: 885px;
+}
